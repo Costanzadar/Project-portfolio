@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How might chatGPT the accessibility of quantum computing</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main Body Styling */
+        body, html {
+            font-family: 'IBM Plex Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Freccia indietro */
+        .back-arrow {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            font-size: 48px;
+            color: #333;
+            text-decoration: none;
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            text-align: center;
+            line-height: 48px;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+        /* Content Styling */
+        .content {
+            padding: 80px;
+            width: calc(100% - 300px);
+            margin-right: 350px;
+            /*margin-left: 50px;
+            margin-top: 50px;*/
+        }
+
+        .content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            margin-bottom: 5rem;
+            line-height: 1.5;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 300px;
+            height: 100vh;
+            background-color: #ffff;
+            color: #333;
+            padding: 20px;
+            border-left: 2px solid black;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            grid-auto-rows: 200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Media Query for Smaller Screens */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                border-left: none;
+                border-bottom: 2px solid black;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .content {
+                width: 100%;
+                margin: 0;
+                padding: 20px;
+                margin-top: 70px; /* Spazio per la top bar */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Back Arrow -->
+    <a href="../costanzadarcangelis.html" class="back-arrow">&#8592;</a>
+
+    <!-- Sidebar / Top Bar -->
+    <aside class="sidebar">
+        <h2>Project Details</h2>
+        <p><strong>Year:</strong> 2024</p>
+        <p><strong>Type:</strong> Branding / Design</p>
+        <p><strong>References:</strong> Reference 1, Reference 2, Reference 3</p>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>How might chatGPT the accessibility of quantum computing</h1>
+        <p>The thesis investigates how ChatGPT can improve accessibility to quantum programming for non-experts, that is those who do not fall within the scope of computational quantum mechanics. It focuses on the challenges of "Quantum computers" complexity and the use of ChatGPT to make this technology more accessible and understandable for beginners interested in learning more. The main objective is to demonstrate how a custom GPT model, as the result of Quantum Buddy 2.0, can assist users in generating quantum computing programs, facilitating their understanding and interest in the field.</p>
+
+        <!-- Gallery -->
+        <div class="gallery">
+            <img src="../Photo/tesi-mag-1.jpg" alt="1">
+            <img src="../Photo/tesi-mag-2.jpg" alt="2">
+            <img src="../Photo/tesi-mag-3.jpg" alt="3">
+            <img src="../Photo/tesi-mag-4.jpg" alt="4">
+            <img src="../Photo/tesi-mag-1.jpg" alt="1">
+            <img src="../Photo/tesi-mag-2.jpg" alt="2">
+            <img src="../Photo/tesi-mag-3.jpg" alt="3">
+            <img src="../Photo/tesi-mag-4.jpg" alt="4">
+        </div>
+    </div>
+</body>
+</html>
