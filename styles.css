@@ -18,7 +18,7 @@ header {
 .left-header {
     position: relative;
     flex: 1;
-    color: white;
+    color: yellow;
     text-align: center;
     overflow: hidden; /* Prevents the image from spilling over its div */
 }
@@ -196,6 +196,7 @@ header {
     margin-top: 5px; /* Space between title and description */
     margin-left: 15px; /* Resets margin */
 }
+
 
 @media (max-width: 768px) {
     .project-item {
